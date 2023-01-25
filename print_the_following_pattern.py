@@ -1,8 +1,5 @@
-def fun(row):
-    for i in range(1,row+1):
-        print(chr(64+row),end=" ")
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end="")
     print()
-row=int(input())
-while row:
-  fun(row)
-  row=row-1
